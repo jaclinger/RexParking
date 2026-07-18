@@ -1,0 +1,91 @@
+#map{
+
+    height:100%;
+    width:100%;
+
+}
+
+#infoPanel{
+
+    background:white;
+
+    padding:20px;
+
+    border-left:1px solid #ddd;
+
+    overflow:auto;
+
+}
+#mapLegend {
+
+    position:absolute;
+
+    bottom:20px;
+
+    left:20px;
+
+    background:white;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    box-shadow:0 3px 10px rgba(0,0,0,.2);
+
+    z-index:1000;
+
+}
+
+
+#mapLegend h3 {
+
+    margin-top:0;
+
+    font-size:16px;
+
+}
+
+
+.legend-item {
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    margin:8px 0;
+
+}
+
+
+.legend-dot {
+
+    width:14px;
+
+    height:14px;
+
+    border-radius:50%;
+
+}
+
+
+.green {
+
+    background:green;
+
+}
+
+
+.orange {
+
+    background:orange;
+
+}
+
+
+.red {
+
+    background:red;
+
+}
